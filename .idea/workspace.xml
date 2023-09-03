@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e58fe4b-f6c9-4516-90c6-bf11a901de3d" name="Changes" comment="practice 2 is added">
-      <change afterPath="$PROJECT_DIR$/src/hw2/Hw2Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw2/Hw2Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw2/Hw2Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw2/Hw2Task4.java" afterDir="false" />
+    <list default="true" id="8e58fe4b-f6c9-4516-90c6-bf11a901de3d" name="Changes" comment="home work 2 is added">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture_3/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture_3/SavedExcept/Gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture_3/SavedExcept/SaveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture_3/SavedExcept/SavedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice_3/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice_3/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice_3/Task3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,29 +44,17 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Hw2Task4">
-    <configuration name="CheckedExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture_2.CheckedExceptions" />
+  <component name="RunManager" selected="Application.Task3">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture_3.Application" />
       <module name="Exceptions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hw2Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw2.Hw2Task1" />
-      <module name="Exceptions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw2.*" />
+          <option name="PATTERN" value="lecture_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_2.Task1" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_3.Task3" />
       <module name="Exceptions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_2.*" />
+          <option name="PATTERN" value="practice_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_2.Task2" />
+    <configuration name="practice_3.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_3.Task1" />
       <module name="Exceptions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_2.*" />
+          <option name="PATTERN" value="practice_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice_3.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_3.Task2" />
+      <module name="Exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.practice_3.Task2" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.practice_3.Task1" />
         <item itemvalue="Application.Hw2Task4" />
-        <item itemvalue="Application.Hw2Task1" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.CheckedExceptions" />
       </list>
     </recent_temporary>
   </component>
@@ -142,12 +147,20 @@
       <option name="project" value="LOCAL" />
       <updated>1693336770155</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="home work 2 is added">
+      <created>1693416802565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693416802565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating info" />
     <MESSAGE value="practice 2 is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="practice 2 is added" />
+    <MESSAGE value="home work 2 is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="home work 2 is added" />
   </component>
 </project>
