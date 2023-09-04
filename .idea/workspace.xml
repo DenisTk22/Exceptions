@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e58fe4b-f6c9-4516-90c6-bf11a901de3d" name="Changes" comment="lesson 3 is added">
-      <change afterPath="$PROJECT_DIR$/src/hw3/Hw3Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/InvalidGenderFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/NotFullDataException.java" afterDir="false" />
+    <list default="true" id="8e58fe4b-f6c9-4516-90c6-bf11a901de3d" name="Changes" comment="hw 3 is process">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw3/Hw3Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw3/Hw3Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture_2/CheckedExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture_2/CheckedExceptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693757964181</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hw 3 is process">
+      <created>1693851838941</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693851838941</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,6 +170,7 @@
     <MESSAGE value="practice 2 is added" />
     <MESSAGE value="home work 2 is added" />
     <MESSAGE value="lesson 3 is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 3 is added" />
+    <MESSAGE value="hw 3 is process" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 3 is process" />
   </component>
 </project>

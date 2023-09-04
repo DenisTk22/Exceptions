@@ -12,7 +12,7 @@ public class CheckedExceptions {
         try {
             test = new FileReader("C:/Users/Denis/Desktop/Обучение GB/2_programmer/workshop/web/hjhj.jpeg"); //если навести на ошибку Java сама подскажет нужно исключение
 //            test.read();
-        } catch (RuntimeException | IOException e) { //можно написать верхнеуровневый тип исключения: Exception. Можно объединить несколь исключений
+        } catch (RuntimeException | IOException e) { //можно написать верхнеуровневый тип исключения: Exception. Можно объединить несколько исключений
             System.out.println("catch exception: " + e.getClass().getSimpleName());
             throw new RuntimeException(e);
         } finally { // выполняется вне зависимости было исключение или нет
