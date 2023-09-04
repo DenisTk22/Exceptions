@@ -27,7 +27,7 @@ import java.util.*;
  * 6 Не забудьте закрыть соединение с файлом.
  * 7 При возникновении проблемы с чтением-записью в файл, исключение должно быть корректно обработано, пользователь должен увидеть стектрейс ошибки.
  * */
-public class Hw3Task { // Fadeev Anton Viktorovich 25.08.1990 89546231475 f / Andreeva Katya Viktorovna 25.08.1990 89546231475 f / Fadeev Igor Egorovich 05.12.1998 89546234589 m
+public class Hw3Task { // Fadeev Anton Viktorovich 25.08.1990 89546231475 m / Andreev Katya Viktorovna 25.08.1990 89546231475 f / Fadeev Igor Egorovich 05.12.1998 89546234589 m
 
     private static final Scanner scanner = new Scanner(System.in);
 
@@ -55,7 +55,7 @@ public class Hw3Task { // Fadeev Anton Viktorovich 25.08.1990 89546231475 f / An
             throw new RuntimeException("Неверный формат даты!");
         }
         catch (NumberFormatException e) {
-            System.out.println("Неверный формат номера телефона!");
+            throw new RuntimeException("Неверный формат номера телефона!");
         }
         catch (InvalidGenderFormat e) {
             throw new InvalidGenderFormat(e.getMessage());
